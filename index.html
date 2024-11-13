@@ -217,5 +217,72 @@
             <!-- /.menu-block__content -->
         </div>
     </div>
+
+    <div class="recall-form-block">
+        <form class="recall-form form-item">
+            <img src="assets/img/icons/close.svg" alt="" class="close">
+            <h2>Заявка на просчет</h2>
+            <div class="recall-form-columns">
+                <div class="recall-form-column">
+                    <div class="input-block">
+                        <input type="text" name="name" id="name" placeholder="Ваше имя *">
+                    </div>
+                    <!-- /.input-block -->
+
+                    <div class="input-block">
+                        <input type="text" name="email" id="email" placeholder="Email *">
+                    </div>
+                    <!-- /.input-block -->
+
+                    <div class="input-block">
+                        <input type="text" name="phone" id="phone" placeholder="Телефон *">
+                    </div>
+                    <!-- /.input-block -->
+                </div>
+                <!-- /.recall-form-column -->
+
+                <div class="recall-form-column">
+                    <div class="input-block">
+                        <textarea name="message" id="message" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <!-- /.input-block -->
+                </div>
+                <!-- /.recall-form-column -->
+            </div>
+            <!--/.recall-form-columns-->
+
+            <div class="recall-form-columns">
+                <div class="recall-form-column">
+                    <div class="accept-policy">
+                        <input type="checkbox" name="policy" id="policy">
+                        <label for="policy">Согласен на обработку персональны данных в соответствии с <a href="#">Пользовательским соглашением</a></label>
+                    </div>
+                    <!-- /.accept-policy -->
+                </div>
+                <!--/.recall-form-column-->
+
+                <div class="recall-form-column">
+                    <input type="submit" value="Отправить запрос">
+                    <div class="await-btn">
+                        <p>Отправка</p>
+                        <img src="assets/img/icons/gear-white.svg" alt="">
+                    </div>
+                </div>
+                <!--/.recall-form-column-->
+            </div>
+            <!--/.recall-form-columns-->
+        </form>
+        <!--/.recall-form-->
+
+        <div class="success-message form-item">
+            <img src="assets/img/icons/close.svg" alt="" class="close">
+            <img src="assets/img/icons/success.svg" alt="" class="succsess">
+            <h2>Ваша заявка успешно отправлена</h2>
+            <button>Закрыть</button>
+        </div>
+        <!--/.success-message-->
+    </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
