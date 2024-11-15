@@ -1292,4 +1292,121 @@ a {
   .sertificates .sertificates-block .sertificates-block__unit {
     width: 40%;
   }
+}
+.contacts-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.contacts-block .contacts-content {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}
+.contacts-block .contacts-form-block {
+  width: 590px;
+}
+
+.contacts-content__item {
+  display: flex;
+  align-items: flex-end;
+}
+.contacts-content__item .contacts-content__item-img {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-content__item .contacts-content__item-img img {
+  width: 100%;
+}
+.contacts-content__item .contacts-content__item-text {
+  margin-left: 20px;
+}
+.contacts-content__item .contacts-content__item-text span {
+  color: #000;
+  font-weight: 300;
+}
+.contacts-content__item .contacts-content__item-text p {
+  color: #000;
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.contacts-form h2 {
+  font-size: 24px;
+}
+.contacts-form .form-sub-text {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.contacts-form .input-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts-form .input-line .input-line-item {
+  width: 49%;
+}
+.contacts-form .input-block textarea {
+  height: 150px;
+  margin-top: 15px;
+}
+.contacts-form .send-message {
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Akrobat", Arial, sans-serif;
+  font-size: 20px;
+  transition: 0.3s all ease;
+}
+.contacts-form .send-message:hover {
+  background: #000;
+}
+.contacts-form .await-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  display: none;
+}
+.contacts-form .await-btn p {
+  color: #fff;
+  font-size: 20px;
+}
+.contacts-form .await-btn img {
+  margin-right: 20px;
+  width: 30px;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.map-block {
+  margin-top: 40px;
+}
+.map-block h2 {
+  margin-bottom: 30px;
+}
+.map-block .map {
+  width: 100%;
+}
+
+@media (max-width: 580px) {
+  .contacts-block {
+    flex-direction: column;
+  }
+  .contacts-block .contacts-content {
+    width: 100%;
+  }
+  .contacts-block .contacts-form-block {
+    margin-top: 60px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
